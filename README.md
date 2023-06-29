@@ -1,2 +1,2 @@
 # cactaceae
-Code and results associated with the MS "Identifying the multiple drivers of Cactus diversification"
+Code and results associated with the submitted manuscript "Identifying the multiple drivers of Cactus diversification"
