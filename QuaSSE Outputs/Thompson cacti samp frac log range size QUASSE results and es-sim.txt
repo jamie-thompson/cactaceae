@@ -1,0 +1,341 @@
+[1] "mle.c"
+$par
+    lambda         mu  diffusion 
+0.15659300 0.01164704 0.01550433 
+
+$lnLik
+[1] -3707.055
+
+$counts
+[1] 116
+
+$convergence
+[1] 0
+
+$message
+[1] "success! tolerance satisfied"
+
+$hessian
+NULL
+
+$method
+[1] "subplex"
+
+$par.full
+       l.c        m.c      drift  diffusion 
+0.15659300 0.01164704 0.00000000 0.01550433 
+
+$func.class
+[1] "constrained" "quasse"      "dtlik"       "function"   
+
+attr(,"func")
+QuaSSE likelihood function:
+  * Parameter vector takes 3 elements:
+     - l.c, m.c, diffusion
+  * Function constrained (original took 4 elements):
+     - drift ~ 0
+  * Function takes arguments (with defaults)
+     - pars: Parameter vector
+     - ...: Additional arguments to underlying function
+     - pars.only [FALSE]: Return full parameter vector?
+  * Phylogeny with 850 tips and 849 nodes
+     - Taxa: Leuenbergeria_lychnidiflora, ...
+  * Reference:
+     - FitzJohn (2010) doi:10.1093/sysbio/syq053
+R definition:
+function (pars, ..., pars.only = FALSE)  
+attr(,"class")
+[1] "fit.mle.quasse" "fit.mle"       
+[1] "mle.d.l"
+$par
+         l.c          l.m          m.c        drift    diffusion 
+ 5.748305271  2.708043768  1.085138745 -0.148250393  0.003823043 
+
+$lnLik
+[1] -3601.97
+
+$counts
+[1] 2381
+
+$convergence
+[1] 0
+
+$message
+[1] "success! tolerance satisfied"
+
+$hessian
+NULL
+
+$method
+[1] "subplex"
+
+$func.class
+[1] "quasse"   "dtlik"    "function"
+
+attr(,"func")
+QuaSSE likelihood function:
+  * Parameter vector takes 5 elements:
+     - l.c, l.m, m.c, drift, diffusion
+  * Function takes arguments (with defaults)
+     - pars: Parameter vector
+     - condition.surv [TRUE]: Condition likelihood on survial?
+     - root [ROOT.OBS]: Type of root treatment
+     - root.f [NULL]
+     - intermediates [FALSE]: Also return intermediate values?
+  * Phylogeny with 850 tips and 849 nodes
+     - Taxa: Leuenbergeria_lychnidiflora, ...
+  * Reference:
+     - FitzJohn (2010) doi:10.1093/sysbio/syq053
+R definition:
+function (pars, condition.surv = TRUE, root = ROOT.OBS, root.f = NULL, 
+    intermediates = FALSE)  
+attr(,"class")
+[1] "fit.mle.quasse" "fit.mle"       
+[1] "mle.d.s"
+$par
+         l.y0          l.y1        l.xmid           l.r           m.c 
+ 9.934721e-02  5.106596e-01 -1.600795e+00  1.267491e+04  3.783627e-02 
+        drift     diffusion 
+-5.750877e-02  5.554559e-03 
+
+$lnLik
+[1] -3599.036
+
+$counts
+[1] 3579
+
+$convergence
+[1] 0
+
+$message
+[1] "success! tolerance satisfied"
+
+$hessian
+NULL
+
+$method
+[1] "subplex"
+
+$func.class
+[1] "quasse"   "dtlik"    "function"
+
+attr(,"func")
+QuaSSE likelihood function:
+  * Parameter vector takes 7 elements:
+     - l.y0, l.y1, l.xmid, l.r, m.c, drift, diffusion
+  * Function takes arguments (with defaults)
+     - pars: Parameter vector
+     - condition.surv [TRUE]: Condition likelihood on survial?
+     - root [ROOT.OBS]: Type of root treatment
+     - root.f [NULL]
+     - intermediates [FALSE]: Also return intermediate values?
+  * Phylogeny with 850 tips and 849 nodes
+     - Taxa: Leuenbergeria_lychnidiflora, ...
+  * Reference:
+     - FitzJohn (2010) doi:10.1093/sysbio/syq053
+R definition:
+function (pars, condition.surv = TRUE, root = ROOT.OBS, root.f = NULL, 
+    intermediates = FALSE)  
+attr(,"class")
+[1] "fit.mle.quasse" "fit.mle"       
+[1] "mle.l"
+$par
+      lambda          l.m           mu    diffusion 
+3.572184e-01 8.636177e-02 7.678961e-07 1.353654e-02 
+
+$lnLik
+[1] -3676.3
+
+$counts
+[1] 235
+
+$convergence
+[1] 0
+
+$message
+[1] "success! tolerance satisfied"
+
+$hessian
+NULL
+
+$method
+[1] "subplex"
+
+$par.full
+         l.c          l.m          m.c        drift    diffusion 
+3.572184e-01 8.636177e-02 7.678961e-07 0.000000e+00 1.353654e-02 
+
+$func.class
+[1] "constrained" "quasse"      "dtlik"       "function"   
+
+attr(,"func")
+QuaSSE likelihood function:
+  * Parameter vector takes 4 elements:
+     - l.c, l.m, m.c, diffusion
+  * Function constrained (original took 5 elements):
+     - drift ~ 0
+  * Function takes arguments (with defaults)
+     - pars: Parameter vector
+     - ...: Additional arguments to underlying function
+     - pars.only [FALSE]: Return full parameter vector?
+  * Phylogeny with 850 tips and 849 nodes
+     - Taxa: Leuenbergeria_lychnidiflora, ...
+  * Reference:
+     - FitzJohn (2010) doi:10.1093/sysbio/syq053
+R definition:
+function (pars, ..., pars.only = FALSE)  
+attr(,"class")
+[1] "fit.mle.quasse" "fit.mle"       
+[1] "mle.s"
+$par
+         l.y0          l.y1        l.xmid           l.r           m.c 
+ 7.846457e-06  2.823335e-01 -2.524140e+00  1.743437e+00  5.934852e-06 
+    diffusion 
+ 1.193741e-02 
+
+$lnLik
+[1] -3676.372
+
+$counts
+[1] 781
+
+$convergence
+[1] 0
+
+$message
+[1] "success! tolerance satisfied"
+
+$hessian
+NULL
+
+$method
+[1] "subplex"
+
+$par.full
+         l.y0          l.y1        l.xmid           l.r           m.c 
+ 7.846457e-06  2.823335e-01 -2.524140e+00  1.743437e+00  5.934852e-06 
+        drift     diffusion 
+ 0.000000e+00  1.193741e-02 
+
+$func.class
+[1] "constrained" "quasse"      "dtlik"       "function"   
+
+attr(,"func")
+QuaSSE likelihood function:
+  * Parameter vector takes 6 elements:
+     - l.y0, l.y1, l.xmid, l.r, m.c, diffusion
+  * Function constrained (original took 7 elements):
+     - drift ~ 0
+  * Function takes arguments (with defaults)
+     - pars: Parameter vector
+     - ...: Additional arguments to underlying function
+     - pars.only [FALSE]: Return full parameter vector?
+  * Phylogeny with 850 tips and 849 nodes
+     - Taxa: Leuenbergeria_lychnidiflora, ...
+  * Reference:
+     - FitzJohn (2010) doi:10.1093/sysbio/syq053
+R definition:
+function (pars, ..., pars.only = FALSE)  
+attr(,"class")
+[1] "fit.mle.quasse" "fit.mle"       
+[1] "mle.h"
+$par
+         l.y0          l.y1        l.xmid          l.s2           m.c 
+ 2.117094e-05  2.703116e-01 -9.560215e-01  1.837275e+00  1.937947e-05 
+    diffusion 
+ 1.169817e-02 
+
+$lnLik
+[1] -3676.077
+
+$counts
+[1] 354
+
+$convergence
+[1] 0
+
+$message
+[1] "success! tolerance satisfied"
+
+$hessian
+NULL
+
+$method
+[1] "subplex"
+
+$par.full
+         l.y0          l.y1        l.xmid          l.s2           m.c 
+ 2.117094e-05  2.703116e-01 -9.560215e-01  1.837275e+00  1.937947e-05 
+        drift     diffusion 
+ 0.000000e+00  1.169817e-02 
+
+$func.class
+[1] "constrained" "quasse"      "dtlik"       "function"   
+
+attr(,"func")
+QuaSSE likelihood function:
+  * Parameter vector takes 6 elements:
+     - l.y0, l.y1, l.xmid, l.s2, m.c, diffusion
+  * Function constrained (original took 7 elements):
+     - drift ~ 0
+  * Function takes arguments (with defaults)
+     - pars: Parameter vector
+     - ...: Additional arguments to underlying function
+     - pars.only [FALSE]: Return full parameter vector?
+  * Phylogeny with 850 tips and 849 nodes
+     - Taxa: Leuenbergeria_lychnidiflora, ...
+  * Reference:
+     - FitzJohn (2010) doi:10.1093/sysbio/syq053
+R definition:
+function (pars, ..., pars.only = FALSE)  
+attr(,"class")
+[1] "fit.mle.quasse" "fit.mle"       
+[1] "mle.d.h"
+$par
+         l.y0          l.y1        l.xmid          l.s2           m.c 
+ 8.806118e-02  3.868752e+00 -1.469677e+00  3.691355e-05  1.759501e-05 
+        drift     diffusion 
+-4.463687e-02  9.595591e-03 
+
+$lnLik
+[1] -3549.124
+
+$counts
+[1] 1868
+
+$convergence
+[1] 0
+
+$message
+[1] "success! tolerance satisfied"
+
+$hessian
+NULL
+
+$method
+[1] "subplex"
+
+$func.class
+[1] "quasse"   "dtlik"    "function"
+
+attr(,"func")
+QuaSSE likelihood function:
+  * Parameter vector takes 7 elements:
+     - l.y0, l.y1, l.xmid, l.s2, m.c, drift, diffusion
+  * Function takes arguments (with defaults)
+     - pars: Parameter vector
+     - condition.surv [TRUE]: Condition likelihood on survial?
+     - root [ROOT.OBS]: Type of root treatment
+     - root.f [NULL]
+     - intermediates [FALSE]: Also return intermediate values?
+  * Phylogeny with 850 tips and 849 nodes
+     - Taxa: Leuenbergeria_lychnidiflora, ...
+  * Reference:
+     - FitzJohn (2010) doi:10.1093/sysbio/syq053
+R definition:
+function (pars, condition.surv = TRUE, root = ROOT.OBS, root.f = NULL, 
+    intermediates = FALSE)  
+attr(,"class")
+[1] "fit.mle.quasse" "fit.mle"       
+       rho    P Value 
+0.02188679 0.90309690 
